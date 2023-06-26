@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+
+body{
+  width: 90%;
+  margin: 0 auto;}
+
+  p{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;}
+
+.container{
+  overflow: hidden;
+  padding: 20px;
+  background-color: rgb(51, 152, 152);}
+
+ .container > div{
+  min-width: 184px;
+  margin: 10px;
+  padding: 25px;
+  background-color: blueviolet;
+  border: 2px solid #fff;
+  text-align: center;
+  color: beige;
+  font-size: 20px;
+  font-weight: 600;
+  float:left;}
+
+  @media (max-width: 540px){
+    .container > div{
+      min-width: 415px;
+    }
+
+  }
